@@ -1,0 +1,16 @@
+name: pms
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - pytest
+  - biopython
+  - jupyter
+  - pip
+  - pip:
+    - transformers
